@@ -26,6 +26,12 @@ class Network(object):
         
         pass
 
+    def train(self):
+
+        # TODO: Implement the training algorithm, using feedforward() and backprop()
+
+        pass
+
     @staticmethod
     def sigmoid(x):
 
