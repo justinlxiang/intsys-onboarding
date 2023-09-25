@@ -1,7 +1,6 @@
 \documentclass{article}
 \usepackage{amssymb}
 \usepackage{amsmath}
-\usepackage{gensymb}
 \setlength{\parindent}{0pt}
 \usepackage{graphicx} 
 
@@ -91,7 +90,7 @@ We index the elements of the matrix as follows: $A_{ij}$ refers to the element i
 
 Here is the more insightful perspective to hold on matrices: they are a type of linear operator. They take in vectors, and output other vectors. Let's take our matrix $A$ from earlier, and create a function out of it. It takes in a vector $\vec{x}$ and outputs a vector $\vec{y}$:
 \[\vec{y} = f(\vec{x}) = A\vec{x}\]
-Here's how you multiply vectors and matrices: \textbf{(1)} Always keep the vector to the right of the matrix. \textbf{(2)} Pick your vector up vertically, flip it counterclockwise $90\degree$ till it's horizontal. \textbf{(3)} For each row of the matrix, multiply each dimension of the vector with the corresponding entry of the row of the matrix. \textbf{(4)} Add up these element-wise products for each row. \textbf{(5)} Repeat for all the rows. Here's an example:
+Here's how you multiply vectors and matrices: \textbf{(1)} Always keep the vector to the right of the matrix. \textbf{(2)} Pick your vector up vertically, flip it counterclockwise $90^{\circ}$ till it's horizontal. \textbf{(3)} For each row of the matrix, multiply each dimension of the vector with the corresponding entry of the row of the matrix. \textbf{(4)} Add up these element-wise products for each row. \textbf{(5)} Repeat for all the rows. Here's an example:
 
 \begin{equation*}\vec{y} = f\left(\begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4\end{bmatrix}\right) = \begin{bmatrix}
     1 & 2 & 3 & 4 \\
