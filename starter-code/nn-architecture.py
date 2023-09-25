@@ -14,8 +14,7 @@ class Network(object):
 
         # Perhaps some values in the middle of the network will be useful to compute 
         # things in backprop().
-
-        pass
+        raise NotImplementedError
 
     def backprop(self, x, y):
 
@@ -23,14 +22,12 @@ class Network(object):
         # Hint: Consider taking in more than just the data point x and its 
         # label y. Again, using values computed in the middle of the feedforward() method
         # will save you repeated computations.
-        
-        pass
+        raise NotImplementedError
 
     def train(self):
 
         # TODO: Implement the training algorithm, using feedforward() and backprop()
-
-        pass
+        raise NotImplementedError
 
     @staticmethod
     def sigmoid(x):
